@@ -360,7 +360,7 @@ function selectStandby(id) {
 
 async function callGemini(prompt, message) {
   const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+    `https://generativelanguage.googleapis.com/v1/models/gemini-2.exp:generateContent?key=${apiKey}`,
     {
       method:'POST',
       headers:{'Content-Type':'application/json'},
